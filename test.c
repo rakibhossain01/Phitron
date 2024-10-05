@@ -1,6 +1,21 @@
 #include <stdio.h>
 int main() {
-   // printf() displays the string inside quotation
-   printf("Hello, World!\n");
+   int x = 5;
+int y = 4;
+    if(x>=y && x<y+4)
+    {
+        if(y<5)
+        {
+            printf("hi ");
+        }
+        else if(y<10)
+        {
+            printf("hi ");
+        }
+    }
+    else
+    {
+        printf("hello ");
+    }
    return 0;
 }
