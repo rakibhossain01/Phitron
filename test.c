@@ -1,21 +1,14 @@
 #include <stdio.h>
 int main() {
-   int x = 5;
-int y = 4;
-    if(x>=y && x<y+4)
+   for(int i=0; i<=10; i++)
     {
-        if(y<5)
+        if(i>2)
         {
-            printf("hi ");
+            continue;
         }
-        else if(y<10)
-        {
-            printf("hi ");
-        }
+        printf("hi ");
     }
-    else
-    {
-        printf("hello ");
-    }
+
+    //printf("hello\n");
    return 0;
 }
