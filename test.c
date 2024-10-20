@@ -1,14 +1,8 @@
-#include <stdio.h>
-int main() {
-   for(int i=0; i<=10; i++)
-    {
-        if(i>2)
-        {
-            continue;
-        }
-        printf("hi ");
-    }
-
-    //printf("hello\n");
-   return 0;
+#include<stdio.h>
+int main()
+{
+    char str[20];
+    scanf("%c",&str);
+    printf("%s",str);
+    return 0;
 }
