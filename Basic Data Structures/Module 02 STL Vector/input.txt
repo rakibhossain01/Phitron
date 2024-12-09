@@ -1,6 +1,2 @@
 5
-Abir
-Adil
-Asif
-Akib
-Atif
+1 8 5 7 5
